@@ -1,6 +1,6 @@
 import {Command, flags} from '@oclif/command'
 
-class Crumb extends Command {
+class CrumbCli extends Command {
   static description = 'describe the command here'
 
   static flags = {
@@ -16,7 +16,7 @@ class Crumb extends Command {
   static args = [{name: 'file'}]
 
   async run() {
-    const {args, flags} = this.parse(Crumb)
+    const {args, flags} = this.parse(CrumbCli)
 
     const name = flags.name || 'world'
     this.log(`hello ${name} from .\\src\\index.ts`)
@@ -26,4 +26,4 @@ class Crumb extends Command {
   }
 }
 
-export = Crumb
+export = CrumbCli

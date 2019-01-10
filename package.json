@@ -1,5 +1,5 @@
 {
-  "name": "crumb",
+  "name": "crumb-cli",
   "description": "Scaffold microservices of your choice",
   "version": "0.0.0",
   "author": "Marcin Miazga @MattKoboski",

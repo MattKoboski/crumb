@@ -44,7 +44,7 @@ jobs:
 
 workflows:
   version: 2
-  "crumb":
+  "crumb-cli":
     jobs:
       - node-latest
       - node-8

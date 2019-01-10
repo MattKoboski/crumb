@@ -2,7 +2,7 @@ import {expect, test} from '@oclif/test'
 
 import cmd = require('../src')
 
-describe('crumb', () => {
+describe('crumb-cli', () => {
   test
     .stdout()
     .do(() => cmd.run([]))
