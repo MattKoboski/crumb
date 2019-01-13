@@ -6,7 +6,7 @@
   "bin": {
     "crumb": "./bin/run"
   },
-  "bugs": "https://github.com/MattKoboski/crumb/issues",
+  "bugs": "https://github.com/MattKoboski/crumb-cli/issues",
   "dependencies": {
     "@oclif/command": "^1.5.8",
     "@oclif/config": "^1.10.4",
@@ -34,7 +34,7 @@
     "/bin",
     "/lib"
   ],
-  "homepage": "https://github.com/MattKoboski/crumb",
+  "homepage": "https://github.com/MattKoboski/crumb-cli",
   "keywords": [
     "oclif"
   ],
