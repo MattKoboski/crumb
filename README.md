@@ -10,7 +10,62 @@ Scaffold microservices of your choice
 [![License](https://img.shields.io/npm/l/crumb-cli.svg)](https://github.com/MattKoboski/crumb-cli/blob/master/package.json)
 
 <!-- toc -->
+* [Usage](#usage)
+* [Commands](#commands)
+<!-- tocstop -->
 # Usage
 <!-- usage -->
+```sh-session
+$ npm install -g crumb-cli
+$ crumb COMMAND
+running command...
+$ crumb (-v|--version|version)
+crumb-cli/0.0.3 win32-x64 node-v10.15.0
+$ crumb --help [COMMAND]
+USAGE
+  $ crumb COMMAND
+...
+```
+<!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`crumb hello [FILE]`](#crumb-hello-file)
+* [`crumb help [COMMAND]`](#crumb-help-command)
+
+## `crumb hello [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ crumb hello [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+
+EXAMPLE
+  $ crumb hello
+  hello world from ./src/hello.ts!
+```
+
+_See code: [src\commands\hello.ts](https://github.com/MattKoboski/crumb-cli/blob/v0.0.3/src\commands\hello.ts)_
+
+## `crumb help [COMMAND]`
+
+display help for crumb
+
+```
+USAGE
+  $ crumb help [COMMAND]
+
+ARGUMENTS
+  COMMAND  command to show help for
+
+OPTIONS
+  --all  see all commands in CLI
+```
+
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.4/src\commands\help.ts)_
+<!-- commandsstop -->
