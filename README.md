@@ -1,6 +1,4 @@
-crumb-cli
-=========
-
+![crumb-cli logo](https://raw.githubusercontent.com/MattKoboski/crumb-cli/master/docs/u_crumb-01.jpg)
 Scaffold microservices of your choice
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
